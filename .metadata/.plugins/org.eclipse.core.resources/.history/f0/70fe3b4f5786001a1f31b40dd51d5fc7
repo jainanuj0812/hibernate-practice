@@ -1,0 +1,19 @@
+package com.hibernate.demo;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.hibernate.demo.entity.Student;
+
+public class CreateStudentDemo {
+
+	public static void main(String[] args) {
+		
+		SessionFactory session = new Configuration().configure()
+				.addAnnotatedClass(Student.class).buildSessionFactory();
+		
+		
+
+	}
+
+}

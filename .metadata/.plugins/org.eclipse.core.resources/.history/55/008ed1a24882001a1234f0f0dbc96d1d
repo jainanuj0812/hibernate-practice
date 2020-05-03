@@ -1,0 +1,10 @@
+package com.hibernate.TestConnection;
+
+public class TestConnectiion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
